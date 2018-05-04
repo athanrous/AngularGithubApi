@@ -9,7 +9,11 @@ export class GitHub {
               public number: number,
               public state: string,
               public title: string,
-              public user: string
+              public user: string,
+              public user_html: string,
+              public created_at: string,
+              public updated_at: string,
+              public label: string
               ) {
   }
 }

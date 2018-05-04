@@ -30,7 +30,11 @@ export class GitHubService {
                       item.number,
                       item.state,
                       item.title,
-                      item.user.login     
+                      item.user.login,
+                      item.user.html_url,
+                      item.created_at,
+                      item.updated_at,
+                      item.head.label     
                   );
                 });
                 resolve(this.results);

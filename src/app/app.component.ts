@@ -11,6 +11,7 @@ import {GitHub} from './app.models';
 
 export class AppComponent implements OnInit{
   
+  public today = Date.now();
   public title = 'app';
   public gitHubIssues: Array<GitHub>;
   constructor(private http: HttpClient,private service: GitHubService) { }

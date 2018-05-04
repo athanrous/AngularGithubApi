@@ -10,7 +10,7 @@ import {GitHubService} from './app.service';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule,
+    HttpClientModule
   ],
   providers: [GitHubService],
   bootstrap: [AppComponent]
